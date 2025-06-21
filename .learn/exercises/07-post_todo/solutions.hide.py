@@ -11,6 +11,7 @@ def hello_world():
 def add_new_todo():
     request_body = request.json
     print("Incoming request with the following body", request_body)
+    
     return 'Response for the POST todo'
 
 
